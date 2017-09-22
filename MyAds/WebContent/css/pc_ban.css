@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.title_case1{position:relative;width:175px;padding:20px 20px;}
+.detail_case1{position:relative;padding:0 20px;}
+
+.jssorb21 {
+	position: absolute;
+}
+.jssorb21 div, .jssorb21 div:hover,.jssorb21 .av {
+	position: absolute;
+	width: 25px;
+	height:	25px;
+	text-align:	center;
+	line-height:19px;
+	color: white;
+	font-size: 12px;
+	background:	url(../img/ico/b212.png) no-repeat;
+	overflow: hidden;
+	cursor:pointer;
+}
+.jssorb21 div {	background-position: -5px -5px;	}
+.jssorb21 div:hover, .jssorb21 .av:hover {background-position:-35px -5px;	}
+.jssorb21 .av {	background-position:-65px -5px; }
+.jssorb21 .dn, .jssorb21 .dn:hover {background-position: -95px -5px; }
+.jssora21l,.jssora21r{
+	top:123px;
+	display: block;
+	position: absolute;
+	width: 32px;
+	height:32px;
+	cursor:pointer;
+	overflow: hidden;
+}
+.jssora21l{left:5px;background:url(../img/btn/btn_previous.png) no-repeat 0 0;}
+.jssora21r{right:5px;background:url(../img/btn/btn_next.png) no-repeat 0 0;}
+.jssora21l:hover{background:url(../img/btn/btn_previous_hover.png) no-repeat 0 0;}
+.jssora21r:hover{background:url(../img/btn/btn_next_hover.png) no-repeat 0 0;}

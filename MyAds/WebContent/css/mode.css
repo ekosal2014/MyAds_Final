@@ -1,0 +1,25 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p{margin:0;padding:0;}
+ul{list-style-type:none;}
+
+/* 焦点图 透明过度 */
+.cxslide_fade{position:relative;width:auto;height:370px;background:#bbb;font-family:'\5fae\8f6f\96c5\9ed1';overflow:hidden;}
+.cxslide_fade .box{overflow:hidden;position:relative;width:960px;height:270px;z-index:4;}
+.cxslide_fade .box a{color:#fff;}
+.cxslide_fade .box a:hover{text-decoration:none;}
+.cxslide_fade .list{overflow:hidden;height:9999px;}
+.cxslide_fade .list li{position:relative;width:960px;height:270px;}
+.cxslide_fade .list img{_vertical-align:top;}
+.cxslide_fade .txt{cursor:pointer;position:absolute;top:20px;left:45px;font-size:14px;line-height:24px;}
+.cxslide_fade .txt h4{font-size:40px;line-height:80px;}
+
+/* 按钮 */
+.cxslide_fade .btn{position:absolute;bottom:0;left:0;height:97px;padding-left:1px;background:#fff;z-index:5;}
+.cxslide_fade .btn a{color:#555;text-decoration:none;}
+.cxslide_fade .btn li{overflow:hidden;float:left;width:79px;height:90px;margin:0 0 0 12px;padding-top:7px;color:#333;
+_margin:0 10px 0 0;_height:87px;}
+.cxslide_fade .btn li:first-child{margin-left:0;}
+.cxslide_fade .btn li.selected{position:relative;top:-3px;border-top:3px solid #f32465;}
+.cxslide_fade .btn h4{padding:4px 0 0 0;font:12px/20px arial;text-indent:2px;}
+.cxslide_fade .btn p{color:#999;font:12px/20px arial;text-indent:2px;}
+.cxslide_fade .btn p a{color:#999;}
+.cxslide_fade .btn p a:hover{text-decoration:underline;}

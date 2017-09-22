@@ -1,0 +1,14 @@
+<Context> 
+  <Resource name="jdbc/OracleDB" 
+   auth="Container"
+   type="javax.sql.DataSource" 
+   username="root" 
+   password=""
+   driverClassName="com.mysql.jdbc.Driver"
+   factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+   url="jdbc:mysql://localhost:3306/ads_db"
+   maxActive="500" 
+   maxIdle="100"
+   />     
+</Context>
+

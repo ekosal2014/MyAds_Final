@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/*
+CSS Document : reset.css
+Company : Webcash
+Author : PARK SEOK-HWAN
+Date : 2014/07/17
+Title : Mobile
+*/
+
+/* basic */
+*{margin:0;padding:0;}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section{display:block;}
+html,body,table,th,td,div,p,span,a,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,form,fieldset,label,input,button,select,textarea,img,pre,blockquote,time,hr,iframe{margin:0;padding:0;font-family:/*"맑은 고딕","Malgun Gothic",*/sans-serif;}
+html{height:100%;-webkit-text-size-adjust:none;/*폰트 자동크기 변환설정 (auto/none/n%)*/}
+html{/*-webkit-tap-highlight-color:rgba(0,0,0,0);*//*iOS(Box), Android(Border)*/}
+body *{font-family:/*"맑은 고딕","Malgun Gothic",*/sans-serif;font-size:14px;color:#666;}
+dl,dt,dd,ul,ol,li{list-style:none;}
+table{empty-cells:show;border-collapse:collapse;width:100%;table-layout:fixed;}
+fieldset,img{border:none;}
+legend,caption,hr{display:none;}
+img,label,input,button,select{vertical-align:middle;}
+img{-ms-interpolation-mode:bicubic;/*Quality IE8이상의 default 비표준*/image-rendering:optimizeQuality;/*High Quality 비표준 (FF3.6/Opera11.60,Safari6533.21.1)*/}
+input,button,select,textarea{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;/*라운드설정*/}
+input,button,select{/*-webkit-appearance:none;-moz-appearance:none;appearance:none;그림자설정*/}
+textarea{vertical-align:top;resize:none;/* Resize설정(horizontal/vertical/both)(Safari/Chrome)*/}
+
+/*clearfix*/
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{content:'';display:block;}
+.clear,.clearfix:after{clear:both;}
+
+/* align */
+.tac{text-align:center !important;}.tar{text-align:right !important;}.tal{text-align:left !important;}
+.vat{vertical-align:top !important;}.vam{vertical-align:middle !important;}.vab{vertical-align:bottom !important;}
+.frt{float:right !important;}.flt{float:left !important;}.fno{float:none !important;}
+
+/* hyperlink */
+a{cursor:pointer;}a:link,a:visited,a:hover,a:active{text-decoration:none;color:#666;}
+
+/* weight */
+.fwb{font-weight:bold !important;}.fwn{font-weight:normal !important;}
+
+/* size */
+.fz11{font-size:11px !important;}
+.fz12{font-size:12px !important;}
+.fz13{font-size:13px !important;}
+.fz14{font-size:14px !important;}
+.fz15{font-size:15px !important;}
+.fz16{font-size:16px !important;}
+.fz17{font-size:17px !important;}
+.fz18{font-size:18px !important;}
+.fz19{font-size:19px !important;}
+.fz20{font-size:20px !important;}
+
+/* space */
+.mgt1{margin-top:1px !important;}
+.mgr1{margin-right:1px !important;}
+.mgb1{margin-bottom:1px !important;}
+.mgl1{margin-left:1px !important;}
+.pdt1{padding-top:1px !important;}
+.pdr1{padding-right:1px !important;}
+.pdb1{padding-bottom:1px !important;}
+.pdl1{padding-left:1px !important;}
+
+/* etc */
+.blind{display:none !important;}
+.skip{position:absolute;top:-100000px;left:-100000px;visibility:hidden;overflow:hidden;}
